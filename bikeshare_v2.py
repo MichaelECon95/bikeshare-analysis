@@ -6,9 +6,9 @@ import plotly.express as px
 
 # insert path if different than the script location
 # Constants for city data files and valid months and days for filtering
-CITY_DATA = {'chicago': '/Volumes/MichaelEric/Data Analitics/Portfolio/Bikeshare - Complete/Completed_Bicycle_project/CITY_DATA/chicago.csv', 
-             'new york city': '/Volumes/MichaelEric/Data Analitics/Portfolio/Bikeshare - Complete/Completed_Bicycle_project/CITY_DATA/new_york_city.csv',
-             'washington': '/Volumes/MichaelEric/Data Analitics/Portfolio/Bikeshare - Complete/Completed_Bicycle_project/CITY_DATA/chwashington.csv'}
+CITY_DATA = {'chicago': '/chicago.csv', 
+             'new york city': '/new_york_city.csv',
+             'washington': '/chwashington.csv'}
 months = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
 days_of_week = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'all']
 CITIES = list(CITY_DATA.keys())
